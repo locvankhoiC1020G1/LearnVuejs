@@ -1,7 +1,7 @@
 <template>
-  <div id="home" class="container">
+  <div id="home">
     <h1>Home page</h1>
-
+    <p>{{ config.defaultPageSize }}</p>
     <Input />
 
     <Button :title="title" :type="type" :click="test" />

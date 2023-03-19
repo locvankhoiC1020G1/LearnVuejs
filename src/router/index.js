@@ -61,7 +61,7 @@ function middlewarePipeline(context, middleware, index) {
 router.beforeEach((to, from, next) => {
   const auth = authStore();
 
-  if (!auth.token && to.name != "Login") next("/login");
+  // if (!auth.token && to.name != "Login") next("/login");
 
   if (!to.meta.middleware) return next();
 

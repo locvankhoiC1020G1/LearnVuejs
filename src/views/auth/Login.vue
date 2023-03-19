@@ -60,7 +60,6 @@
 </template>
 
 <script setup>
-import defaultAvatar from "../../assets/default-avatar.jpg";
 import { reactive, ref } from "vue";
 import { authStore } from "../../store/modules/authStore";
 import { useRouter } from "vue-router";
